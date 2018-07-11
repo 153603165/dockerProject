@@ -15,6 +15,11 @@ public class App {
 		SpringApplication.run(App.class, args);
 	}
 
+	/**
+	 * 测试
+	 * 
+	 * @return
+	 */
 	@GetMapping("/hello")
 	public String hello() {
 		return "hello World";
